@@ -8,3 +8,49 @@
 ';
 
 /* append your custom style below */
+#topbar-wrapper {
+  background: rgba(0, 0, 0, 0.75);
+  border-radius: 0 0 7px 7px;
+}
+         
+#main-wrapper {
+  background-image: url('../img/background.png');
+  background-size: 100% auto; /* 宽度自适应，图片长宽比不变 ———— > 偏长的手机背景图最适合*/
+  // background-repeat: no-repeat; /* 不设置no-repeat以免图片因文章过长而被拉伸过大，影响美观 */
+}
+         
+.container {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+         
+// 网页背景图我实在调不了透明度，于是耍赖（不是）————效果不是很满意，后续再说
+#post-list, .px-1 {
+  background: rgba(0, 0, 0, 0.65);
+  padding: 15px 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+         
+.post-navigation {
+  background: rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+}
+         
+footer {
+  padding: 15px;
+}
+
+#sidebar .site-title a {
+  color: #ffffff; 
+  text-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+#sidebar .site-subtitle {
+  color: #ffffff;
+  text-shadow: 2px 2px 3px rgba(0,0,0, 0.7);
+}
+#sidebar .sidebar-bottom .mode-toggle, #sidebar a {
+  color: #ffffff;
+}
+#sidebar .sidebar-bottom .btn {
+  color: var(--sidebar-btn-color);
+}
