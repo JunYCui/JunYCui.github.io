@@ -16,7 +16,7 @@
 #main-wrapper {
   background-image: url('../img/background.png');
   background-size: 100% auto; /* 宽度自适应，图片长宽比不变 ———— > 偏长的手机背景图最适合*/
-  // background-repeat: no-repeat; /* 不设置no-repeat以免图片因文章过长而被拉伸过大，影响美观 */
+   background-repeat: no-repeat; /* 不设置no-repeat以免图片因文章过长而被拉伸过大，影响美观 */
 }
          
 .container {
