@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 >*Valar Morghulis, Valar Dohaeris \
---Song of Ice and Fire*
+ -- Song of Ice and Fire*
 
 Hey, I am currently a senior student at nuist. \
 \
