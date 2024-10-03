@@ -6,7 +6,7 @@ order: 4
 >*Valar Morghulis, Valar Dohaeris \
  -- Song of Ice and Fire*
 
-Hey, I am currently a senior student at nuist. \
+Hey, I am currently a senior student at NUIST. \
 \
 Nice to meet you here! I will occasionally share some of my study notes and life records at this web. 
 
