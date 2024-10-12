@@ -11,7 +11,7 @@ Hey, I am currently a senior student at NUIST. \
 Nice to meet you here! I will occasionally share some of my study notes and life records at this web. 
 
  🎓**Education**
- - 2021/09 - 2025/06 B. S. in Microelectronic, School of Integrated Circuits, Nanjing University of Information Science and Technology
+ - 2021/09 - 2025/06 B. S. in Microelectronic, School of Integrated Circuits, NUIST
  - 2025/09 - now     Master in IMEUCAS
 
 🏓 **Hobby**
