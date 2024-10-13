@@ -25,5 +25,5 @@ Nice to meet you here! I will occasionally share some of my study notes and life
 
 📧 **Contact Information** 
 
-- cjy20020924@163.com
-- 1354315077@qq.com
+- <cjy20020924@163.com>
+- <1354315077@qq.com>
