@@ -1,6 +1,6 @@
 ---
 title: Write-Verify Scheme for IGZO DRAM in Analog in-Memory Computing 
-date: 2024-10-27 18:43:30 
+date: 2024-10-26 18:43:30 
 categories: [Paper, CIM]
 tags: [analog, edram]     # TAG names should always be lowercase
 math: true
@@ -14,7 +14,7 @@ math: true
 
 ## 写入验证方案 
 
-![写入验证方案](../assets/img/paper/Write-Verify%20Scheme%20for%20IGZO%20DRAM%20in%20Analog%20in-Memory%20Computing/图1.png "avater")
+![写入验证方案](../assets/img/paper/Write-Verify%20Scheme%20for%20IGZO%20DRAM%20in%20Analog%20in-Memory%20Computing/图1.png "写入验证方案")
 
 通过act线激活DRAM，产生ION电流通过一个I\V转换电路，将电流转化为电压，通过ADC量化与init_code作比较通过逻辑电路控制可编程放大器（PGA）控制位线补偿。 
 
@@ -33,4 +33,8 @@ $N$表示每一行的cell数量
 
 ## 实验结果
 
-![实验结果](../assets/img/paper/Write-Verify%20Scheme%20for%20IGZO%20DRAM%20in%20Analog%20in-Memory%20Computing/图2.png "avater")
+![实验结果](../assets/img/paper/Write-Verify%20Scheme%20for%20IGZO%20DRAM%20in%20Analog%20in-Memory%20Computing/图2.png "实验结果")
+
+从图1中可以看出，$t_{1}$时刻，还未补偿时，$I_{ON}$的方差大，其$\frac{\sigma}{\mu}\approx\pm 27\%$，补偿后(即$t_{2}$时刻)，$\frac{\sigma}{\mu}\approx\pm 3\%$。  
+图2展示了$t_{2}$时刻，电流的具体分布
+![alt text](image.png)
