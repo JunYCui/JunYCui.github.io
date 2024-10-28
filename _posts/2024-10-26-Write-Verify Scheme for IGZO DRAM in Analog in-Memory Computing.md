@@ -37,4 +37,3 @@ $N$表示每一行的cell数量
 
 从图1中可以看出，$t_{1}$时刻，还未补偿时，$I_{ON}$的方差大，其$\frac{\sigma}{\mu}\approx\pm 27\%$，补偿后(即$t_{2}$时刻)，$\frac{\sigma}{\mu}\approx\pm 3\%$。  
 图2展示了$t_{2}$时刻，电流的具体分布
-![alt text](image.png)
