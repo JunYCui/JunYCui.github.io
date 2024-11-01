@@ -20,11 +20,12 @@ math: true
 
 
 电流转换电压公式
+
 $$
 V_{OUT} = I_{ON}(V_{w_{i}}, \delta V^{i}_{TH})*\frac{t_{p}}{C{f}}
 $$
 
-$t_{p}$ 表示激活时间，$C_{f}$表示反馈电容
+$ t_{p} $ 表示激活时间，$C_{f}$表示反馈电容
 
 $$
 t_{array} = N*t_{cell}
