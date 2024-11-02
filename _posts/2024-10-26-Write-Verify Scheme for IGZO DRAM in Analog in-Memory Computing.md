@@ -35,7 +35,14 @@ $$N$$表示每一行的cell数量
 
 ## 实验结果
 
+![阵列参数](../assets/img/paper/Write-Verify%20Scheme%20for%20IGZO%20DRAM%20in%20Analog%20in-Memory%20Computing/图4.png "阵列参数")
+
 ![实验结果](../assets/img/paper/Write-Verify%20Scheme%20for%20IGZO%20DRAM%20in%20Analog%20in-Memory%20Computing/图2.png "实验结果")
 
 从图1中可以看出，$$t_{1}$$时刻，还未补偿时，$$I_{ON}$$的方差大，其$$\frac{\sigma}{\mu}\approx\pm 27\%$$，补偿后(即$$t_{2}$$时刻)，$$\frac{\sigma}{\mu}\approx\pm 3\%$$。  
 图2展示了$$t_{2}$$时刻，电流的具体分布
+
+![实验结果2](../assets/img/paper/Write-Verify%20Scheme%20for%20IGZO%20DRAM%20in%20Analog%20in-Memory%20Computing/图3.png "实验结果2")
+  
+随着补偿周期的增加，阵列速度和能耗效率得到了显著的提升，而所带来的面积的增加（IV转换电路、ADC、PGA）和能耗的增加是可以忽略不计的。  
+
