@@ -1,5 +1,5 @@
 ---
-title: Write-Verify Scheme for IGZO DRAM in Analog in-Memory Computing 
+title: Low-Power and Scalable Retention-Enhanced IGZO  TFT eDRAM-Based Charge-Domain Computing 
 date: 2024-10-28 18:43:30 
 categories: [Paper, CIM]
 tags: [analog, edram]     # TAG names should always be lowercase
