@@ -4,6 +4,9 @@ date: 2024-10-28 18:43:30
 categories: [Paper, CIM]
 tags: [analog, edram]     # TAG names should always be lowercase
 math: true
+author: JYC
+description: >-
+  4T1C eDRAM Design for ACIM
 --- 
 
 ## 4T1C eDRAM Design

@@ -4,6 +4,9 @@ date: 2024-10-26 18:43:30
 categories: [Paper, CIM]
 tags: [analog, edram]     # TAG names should always be lowercase
 math: true
+author: JYC
+description: >-
+  Write-Verify Scheme for ACIM with IGZO-DRAM  
 --- 
 
 
