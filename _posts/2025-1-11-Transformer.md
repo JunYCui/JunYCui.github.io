@@ -34,18 +34,20 @@ class Embeddings(nn.Module):
         return  self.lut(x)*math.sqrt(self.d_model)
 ```
 
-> `sqrt(self.d_model)`的作用，有助于梯度的快速变化{: .prompt-tip}
+> `sqrt(self.d_model)`的作用，有助于梯度的快速变化{: .prompt-tip }
 
 ### 位置编码器
 位置编码器的作用顾名思义是对于每个词汇的位置进行编码，很直觉的一种解释是不同的词汇在不同的地方有着不同的含义。\
 对于位置编码的公式   
 
 $$
-PE_{(pos,2i)} = sin(pos/10000^{2i/d_{model}}) \\
+PE_{(pos,2i)} = sin(pos/10000^{2i/d_{model}}) 
+$$
+$$
 PE_{(pos,2i+1)} = cos(pos/10000^{2i/d_{model}})
 $$
 
-> 选择这个公式的原因：这样更容易学习位置的相对关系，每个PE之间都可以线性表示 {: .prompt-tip}
+> 选择这个公式的原因：这样更容易学习位置的相对关系，每个PE之间都可以线性表示 {: .prompt-tip }
 
 代码实现
 ``` python
