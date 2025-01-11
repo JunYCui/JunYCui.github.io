@@ -17,3 +17,5 @@ math: true
 - [ ] thesis
 - [ ] C++
 - [ ] Python 
+- [ ] computer system
+    - [ ] CSAPP
