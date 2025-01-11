@@ -1,5 +1,5 @@
 ---
-title: ysyx 
+title: Transformer 
 author: JYC
 description: study about transformer algorithm
 date: 2025-1-10 18:43:30 
