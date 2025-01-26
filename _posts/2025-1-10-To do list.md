@@ -17,5 +17,10 @@ math: true
 - [ ] thesis
 - [ ] C++
 - [ ] Python 
+- [ ] System Verilog
+  - [ ] ibex - an open cpu core
+- [ ] Chisel
+  - [ ] rocket
 - [ ] computer system
     - [ ] CSAPP
+  
