@@ -38,10 +38,6 @@
         </li>
         <!-- .nav-item -->
       {% endfor %}
-      <!-- Friends link -->
-        {% if site.data.friends %}
-          {% include friends.html %}
-        {% endif %} 
     </ul>
   </nav>
   <div class="sidebar-bottom d-flex flex-wrap  align-items-center w-100">
@@ -98,3 +94,8 @@
   <!-- .sidebar-bottom -->
 </aside>
 <!-- #sidebar -->
+
+<!-- Friends link -->
+  {% if site.data.friends %}
+    {% include friends.html %}
+  {% endif %} 
