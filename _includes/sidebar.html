@@ -51,7 +51,10 @@
         <span class="icon-border"></span>
       {% endif %}
     {% endunless %}
-
+  <!-- Friends link -->
+  {% if site.data.friends %}
+      {% include friends.html %}
+  {% endif %} 
     {% for entry in site.data.contact %}
       {% case entry.type %}
         {% when 'github', 'twitter' %}
@@ -93,10 +96,6 @@
       {% endif %}
     {% endfor %}
   </div>
-<!-- Friends link -->
-{% if site.data.friends %}
-      {% include friends.html %}
-{% endif %}
   <!-- .sidebar-bottom -->
 </aside>
 <!-- #sidebar -->
