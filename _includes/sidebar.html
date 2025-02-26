@@ -40,7 +40,10 @@
       {% endfor %}
     </ul>
   </nav>
-
+  <!-- Friends link -->
+{% if site.data.friends %}
+  {% include friends.html %}
+{% endif %} 
   <div class="sidebar-bottom d-flex flex-wrap  align-items-center w-100">
     {% unless site.theme_mode %}
       <button type="button" class="btn btn-link nav-link" aria-label="Switch Mode" id="mode-toggle">
@@ -51,10 +54,6 @@
         <span class="icon-border"></span>
       {% endif %}
     {% endunless %}
-  <!-- Friends link -->
-  {% if site.data.friends %}
-      {% include friends.html %}
-  {% endif %} 
     {% for entry in site.data.contact %}
       {% case entry.type %}
         {% when 'github', 'twitter' %}
