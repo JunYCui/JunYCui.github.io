@@ -34,7 +34,8 @@ class Embeddings(nn.Module):
         return  self.lut(x)*math.sqrt(self.d_model)
 ```
 
-> `sqrt(self.d_model)`的作用，有助于梯度的快速变化{: .prompt-tip }
+> `sqrt(self.d_model)`的作用，有助于梯度的快速变化 
+{: .prompt-tip }
 
 ### 位置编码器
 位置编码器的作用顾名思义是对于每个词汇的位置进行编码，很直觉的一种解释是不同的词汇在不同的地方有着不同的含义。\
