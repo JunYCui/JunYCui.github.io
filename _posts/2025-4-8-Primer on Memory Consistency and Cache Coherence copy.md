@@ -1,5 +1,5 @@
 ---
-title: A Primer on Memory Consistency and Cache Coherence
+title: Primer on Memory Consistency and Cache Coherence
 description: Note about <<A Primer on Memory Consistency and Cache Coherence>>
 date: 2024-4-7 19:12:30 
 categories: [Digital Circuit, Notes about book]
