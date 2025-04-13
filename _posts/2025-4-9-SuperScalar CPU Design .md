@@ -2,7 +2,7 @@
 title: SuperScalar CPU Design
 author: JYC
 description: Note about <<超标量处理器设计>>
-date: 2024-4-8 19:12:30 
+date: 2025-4-8 19:12:30 
 categories: [Digital Circuit, Notes about book]
 tags: [CPU, SuperScalar]     # TAG names should always be lowercase
 --- 
