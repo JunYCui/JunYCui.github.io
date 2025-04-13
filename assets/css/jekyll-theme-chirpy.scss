@@ -132,10 +132,9 @@ body::before {
   width: 100%;
   height: 100%;
   z-index: -1; /* 确保背景在内容之下 */
-  margin-right: -100px;
   background-position: center;
   background-image: url('../img/mainback.png'); /* 替换为你的背景图路径 */
-  background-size: cover;
+  background-size: 80% auto;
   background-attachment: fixed; /* 关键属性：固定背景 */
   opacity: 0.2; /* 可调整透明度 */
 }
