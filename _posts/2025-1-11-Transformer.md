@@ -4,7 +4,7 @@ author: JYC
 description: study about transformer algorithm
 date: 2025-1-10 18:43:30 
 categories: [Study, Machine Learning]
-tags: [ai, NLP]     # TAG names should always be lowercase
+tags: [ai, nlp]     # TAG names should always be lowercase
 math: true
 comments: true
 --- 

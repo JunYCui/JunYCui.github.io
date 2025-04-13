@@ -1,10 +1,9 @@
 ---
 title: A Primer on Memory Consistency and Cache Coherence
-author: JYC
 description: Note about <<A Primer on Memory Consistency and Cache Coherence>>
 date: 2024-4-7 19:12:30 
 categories: [Digital Circuit, Notes about book]
-tags: [Memory Consistency,  Cache Coherence]     # TAG names should always be lowercase
+tags: [memory consistency,  cache coherence]     # TAG names should always be lowercase
 --- 
 
 
