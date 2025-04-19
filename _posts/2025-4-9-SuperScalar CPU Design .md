@@ -22,13 +22,13 @@ tags: [CPU, SuperScalar]     # TAG names should always be lowercase
 - 物理寄存器指CPU中实际有的寄存器
 - 逻辑寄存器指指令中存在的寄存器
 
-![register rename](../assets/img/Superscalar/Register%20Rename.png)
+![register rename](../assets/img/Superscalar/Register%20Rename.png){: width="972" height="589"}
 
 ## 存器重命名
 
 寄存器重命名的任务：读取源操作寄存器、分配目的寄存器和寄存器更新。具体操作如下图，首先通过逻辑寄存器（Arithmetic Register File ,ARF）进行索引物理寄存器（Physical Register File, PRF）索引，然后再通过PRF索引得到真正的寄存器值
 
-![RRE](../assets/img/Superscalar/RRE.png)
+![RRE](../assets/img/Superscalar/RRE.png){: width="972" height="589"}
 
 ### 重命名映射表
 
@@ -41,13 +41,13 @@ sRAT是指使用SRAM作为表格的载体，其具体形式如下图所示，在
 > 值得注意的是因为每条指令都涉及多个寄存器，所以一个周期会有多个寄存器寻址他，所以这是一个多端口SRAM 
 {: .box-tip }
 
-![sRAT](../assets/img/Superscalar/sRAT.png)
+![sRAT](../assets/img/Superscalar/sRAT.png){: width="972" height="589"}
 
 #### 基于CAM的重命名映射表
 
-cRAT的具体实现形式如下图所示，其也是**逻辑寄存器进行寻址**，不同的是CAM是一种通过表格内容进行选址的寄存器，可以看出他将逻辑寄存器作为了表格的内容，物理寄存器作为了表项，所以cRAT的存储空间为64*5=320bits显著大于sRAT。
+cRAT的具体实现形式如左图所示，其也是**逻辑寄存器进行寻址**，不同的是CAM是一种通过表格内容进行选址的寄存器，可以看出他将逻辑寄存器作为了表格的内容，物理寄存器作为了表项，所以cRAT的存储空间为64*5=320bits显著大于sRAT。
 
-![cRAT](../assets/img/Superscalar/cRAT.png)
+![cRAT](../assets/img/Superscalar/cRAT.png){: width="972" height="589"}
 
 #### cRAT与sRAT的比较
 
