@@ -22,19 +22,19 @@
   right: 0;
   bottom: 0;
   background-color: rgba(113, 100, 100, 0.6); /* 控制透明度和颜色（示例为黑色50%透明） */
-  z-index: 0; /* 确保在背景上方、内容下方 */
+  z-index: -1; /* 确保在背景上方、内容下方 */
 }
 #sidebar .site-title a {
   color: #ffffff;
   text-shadow: 5px 5px 10px rgba(23, 16, 16, 0.5);
   position: relative;
-  z-index: 1; /* 高于遮罩层 */
+  z-index: 0; /* 高于遮罩层 */
 }
 #sidebar .site-subtitle {
   color: #ffffff;
   text-shadow: 5px 5px 7px rgba(13, 13, 13, 0.045);
   position: relative;
-  z-index: 1; /* 高于遮罩层 */
+  z-index: 0; /* 高于遮罩层 */
 }
 #sidebar .sidebar-bottom .mode-toggle, #sidebar a {
   position: relative;
@@ -42,7 +42,7 @@
   color: #ffffff;
 }
 #sidebar .sidebar-bottom .btn {
-  z-index: 1; /* 高于遮罩层 */
+  z-index: 0; /* 高于遮罩层 */
   color: var(--sidebar-btn-color);
 }
 
